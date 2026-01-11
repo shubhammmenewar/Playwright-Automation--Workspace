@@ -1,0 +1,45 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Compiled files
+*.class
+*.o
+*.pyc
+
+# Package lock files (optional – keep if your team wants them)
+# package-lock.json
+# yarn.lock
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
