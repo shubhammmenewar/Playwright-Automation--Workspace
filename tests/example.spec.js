@@ -24,7 +24,7 @@ test('Login RahulShettyacadamy',async({page})=>{
   const password= page.locator('#password');
   const signbtn=  page.locator("#signInBtn");
 
-await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+await page.goto("https://rahulshettyacademy.com/loginpagePractise/");klm;ogjneorjn
 console.log(await page.title);
 await page.locator('#username').fill("rahulshetty");
 await password.fill("ashish@830$3mK2");
