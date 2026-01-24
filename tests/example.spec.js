@@ -27,7 +27,7 @@ test('Login RahulShettyacadamy',async({page})=>{
 await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
 console.log(await page.title);
 await page.locator('#username').fill("rahulshetty");
-await password.fill("Learning@830$3mK2");
+await password.fill("ashish@830$3mK2");
 await signbtn.click();
 console.log(await page.locator("//div[@style='display: block;']").textContent());
 await expect(page.locator("//div[@style='display: block;']")).toContainText('Incorrect');
